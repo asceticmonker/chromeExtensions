@@ -29,7 +29,8 @@
     "run_at": "document_end",
     "all_frames": false,
     "js": [
-      "js/main.js"
+      "js/main.js",
+      "js/lib/jquery-1.11.3.min.js"
     ]
   }],
   "permissions": [

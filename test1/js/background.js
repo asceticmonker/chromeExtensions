@@ -45,6 +45,10 @@ function downloadFile(src) {
     url: src,
     conflictAction: 'uniquify',
     saveAs: false,
-    filename: 'mypath/'+ randomName() +'.jpg'
+    filename: 'mypath/'+ randomName() +'.jpg',
+    headers : [
+    {"name": "Referer",
+    "value": "https://www.baidu.com"}
+    ]
   })
 }
